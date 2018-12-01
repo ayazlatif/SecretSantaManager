@@ -1,5 +1,4 @@
 <h1>Secret Santa Manager</h1>
-<hr>
  
 
 <h2>FORMAT OF FILES</h2>
@@ -22,22 +21,20 @@ gifter2, reciever2<br>
 ...
 </p>
 
-<hr>
 
 <h2>INSTALLATION</h2>
 <p>This file requires the use of the google api. You will need to set up API keys yourself if you want to use this code.</p>
 
 <p>This requires Python 3 install that first
 If you are on mac you also need pip to install run on terminal</p>
+
 <code>sudo easy_install pip</code>
 
-<p>Now you need the google api go ahead and use this 
+<p>Now you need the google api go ahead and use this </p>
 <code>pip3 install --upgrade google-api-python-client oauth2client</code>
 
 <p>You also need retrying (handles error code 500 hopefully!!)</p>
 <code>pip3 install retrying</code>
-
-<hr>
 
 <h2>HOW TO RUN</h2>
 
